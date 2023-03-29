@@ -105,4 +105,29 @@ main {
     .section__content-ticket {
         gap: 72px;
     }
+
 }
+
+.discover {
+    margin-top: 155px;
+    background-repeat: no-repeat;
+    background-image: url(../images/backgroundleaf.svg);
+    background-size: cover;
+    background-position: right;
+}
+
+.discover__nature-info p {
+   color: white;
+    width: 401px;
+}
+
+.discover__nature-info h2 {
+    color: white;
+    width: 417px;
+}
+
+.discover__nature-info {
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,35 @@
+.primary__button-regular {
+    height: 56px;
+    width: 188px;
+    background-color: var(--primary);
+    cursor: pointer;
+    border: none;
+}
+
+
+.primary__button-regular:hover {
+    background-color: rgba(84, 117, 82, 1);
+    cursor: pointer;
+}
+
+.primary__button-small {
+    padding: 15px 30px;
+    background-color: var(--primary);
+    cursor: pointer;
+    border: none;
+}
+.secondary__button-regular {
+    height: 56px;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    padding: 20px 40px;
+    background-color: var(--light);
+}
+
+
+.secondary__button-small {
+    padding: 15px 30px;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    background-color: var(--light);
+}

@@ -1,7 +1,6 @@
 /* || General Styles */
 .section {
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +13,6 @@
 .section__content {
     max-width: 1200px;
     width: 100%;
-
     display: flex;
 }
 
@@ -33,16 +31,13 @@ main {
 .section__content-navigation {
     justify-content: space-between;
     align-items: center;
-
     height: 100%;
 }
 
 .tickets__buttons {
     display: flex;
     align-items: center;
-
     gap: 16px;
-
     margin-top: 32px;
 }
 
@@ -73,7 +68,7 @@ main {
 .burger-menu {
     display: none;
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+@media only screen and (max-width: 1023px)  {
     .navigation {
         display: none;
     }
@@ -110,15 +105,32 @@ main {
 
 .discover {
     margin-top: 155px;
+
+    flex-direction: column;
+    gap: 96px;
     background-repeat: no-repeat;
     background-image: url(../images/backgroundleaf.svg);
     background-size: cover;
     background-position: right;
 }
+.discover__nature {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.discover__nature button {
+    margin-top: 32px;
+    border: 2px solid var(--light);
+    color: white;
+}
 
 .discover__nature-info p {
    color: white;
-    width: 401px;
+   width: 401px;
+   margin-top: 16px;
 }
 
 .discover__nature-info h2 {
@@ -126,8 +138,18 @@ main {
     width: 417px;
 }
 
-.discover__nature-info {
-    display: flex;
-    flex-direction: column;
+.discover__picture {
+    background-image: url("../images/sittingarea.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    width: 100%;
+    height: 409px;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .discover__nature {
+        display: none;
+    }
+}

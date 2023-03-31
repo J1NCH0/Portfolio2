@@ -20,6 +20,22 @@ main {
     margin-top: 56px;
 }
 
+.primary__button-regular {
+    height: 56px;
+    width: 188px;
+    background-color: var(--primary);
+    cursor: pointer;
+    border: none;
+}
+
+.secondary__button-regular {
+    height: 56px;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    padding: 20px 40px;
+    background-color: transparent;
+}
+
 /* Header */
 /* || Navigation */
 .navigation {
@@ -71,7 +87,7 @@ main {
 
 .discover {
     margin-top: 155px;
-
+    padding-bottom: 96px;
     flex-direction: column;
     gap: 96px;
     background-repeat: no-repeat;
@@ -173,6 +189,10 @@ main {
         height: 211px;
         margin: 0;
     }
+
+    .discover {
+        padding-bottom: 104px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -227,10 +247,31 @@ main {
         line-height: 37px;
     }
 
+    .discover {
+        padding-bottom: 64px;
+    }
+
     .discover__nature-info p {
         text-align: center;
         width: 344px;
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .primary__button-regular {
+        width: 168px;
+        height: 46px;
+        background-color: var(--primary);
+        cursor: pointer;
+        border: none;
+    }
+
+    .secondary__button-regular {
+        width: 166px;
+        height: 46px;
+        background-color: transparent;
+        border: 2px solid  var(--primary);
+        padding: 0;
+        cursor: pointer;
     }
 }
